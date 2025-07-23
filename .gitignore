@@ -1,0 +1,9 @@
+# Python 
+__pycache__/ 
+*.pyc 
+venv/ 
+.ipynb_checkpoints/ 
+data/raw/*.csv 
+data/raw/*.json 
+.env 
+config.py 
