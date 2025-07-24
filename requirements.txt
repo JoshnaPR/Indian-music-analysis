@@ -24,6 +24,7 @@ fastjsonschema==2.21.1
 folium==0.20.0
 fonttools==4.59.0
 fqdn==1.5.1
+geopandas==1.1.1
 h11==0.16.0
 httpcore==1.0.9
 httpx==0.28.1
@@ -80,7 +81,9 @@ psutil==7.0.0
 pure_eval==0.2.3
 pycparser==2.22
 Pygments==2.19.2
+pyogrio==0.11.0
 pyparsing==3.2.3
+pyproj==3.7.1
 python-dateutil==2.9.0.post0
 python-json-logger==3.3.0
 pytz==2025.2
@@ -100,6 +103,7 @@ scipy==1.16.0
 seaborn==0.13.2
 Send2Trash==1.8.3
 setuptools==80.9.0
+shapely==2.1.1
 six==1.17.0
 sniffio==1.3.1
 soupsieve==2.7
