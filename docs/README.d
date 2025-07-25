@@ -87,9 +87,9 @@ indian-music-analysis/
 │       ├── state_music_rankings.csv
 │       └── regional_analysis_summary.csv
 ├── notebooks/
+|   ├── 00_project_setup_test.ipynb
 │   ├── 01_indian_music_data_collection.ipynb
-│   ├── 02_regional_demographic_analysis.ipynb
-│   └── 03_advanced_visualizations.ipynb
+│   └── 02_regional_demographic_analysis.ipynb
 ├── src/
 │   └── app.py
 └── requirements.txt
@@ -123,8 +123,14 @@ pip install -r requirements.txt
 
 Running the Analysis
   jupyter notebook
-# Run notebooks in order: 01, 02, 03
+# Run notebooks in order: 00, 01, 02
 
 # For local dashboard:
 cd src
 streamlit run app.py
+
+### Contact Information
+Developer: Joshna Prasanna Raghavan
+Email: joshna.p2507@gmail.com
+GitHub: https://github.com/JoshnaPR
+Live Dashboard: https://indian-music-analysis-joshnapr.streamlit.app/
