@@ -1,4 +1,4 @@
-s\#  Indian Music Listeners in the US - Data Analytics Project
+\#  Indian Music Listeners in the US - Data Analytics Project
 
 ## Project Overview
 
