@@ -78,3 +78,53 @@ This project analyzes Indian music listening patterns among different demographi
 - Stakeholder-ready presentation materials
 
 ## Project Structure
+indian-music-analysis/
+├── data/
+│   ├── raw/
+│   │   └── spotify_indian_playlists.csv
+│   └── processed/
+│       ├── us_indian_demographics.csv
+│       ├── state_music_rankings.csv
+│       └── regional_analysis_summary.csv
+├── notebooks/
+│   ├── 01_indian_music_data_collection.ipynb
+│   ├── 02_regional_demographic_analysis.ipynb
+│   └── 03_advanced_visualizations.ipynb
+├── src/
+│   └── app.py
+└── requirements.txt
+
+  # Key Achievements
+
+| Metric | Value | Description |
+|--------|-------|-------------|
+| Data Points | 4.4M+ | Indian Americans analyzed across demographics |
+| Playlists | 235+ | Music playlists analyzed across categories |
+| Geographic Coverage | 15 states | Top markets by Indian population |
+| API Integrations | 2 | Spotify + US Census data sources |
+| Visualizations | 12+ | Interactive charts and analytics |
+| Business Insights | 20+ | Strategic recommendations generated |
+
+## Setup Instructions
+
+### Prerequisites
+- Python 3.8 or higher
+- Git
+- Spotify Developer Account
+- US Census API Key
+
+### Installation
+```bash
+git clone https://github.com/JoshnaPR/Indian-music-analysis.git
+cd indian-music-analysis
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+Running the Analysis
+  jupyter notebook
+# Run notebooks in order: 01, 02, 03
+
+# For local dashboard:
+cd src
+streamlit run app.py
