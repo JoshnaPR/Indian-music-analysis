@@ -135,7 +135,7 @@ playlists_df, demographics_df, market_df, state_preferences = load_data()
 if all(df is not None for df in [playlists_df, demographics_df, market_df]):
     
     # Enhanced Sidebar
-    st.sidebar.header("🎯 Strategic Analysis Controls")
+    st.sidebar.header(" Strategic Analysis Controls")
     
     # Analysis type selector
     analysis_type = st.sidebar.selectbox(
@@ -167,7 +167,7 @@ if all(df is not None for df in [playlists_df, demographics_df, market_df]):
     ]
     
     # Executive Summary Metrics
-    st.markdown("### 📊 Executive Dashboard")
+    st.markdown("###  Executive Dashboard")
     
     col1, col2, col3, col4, col5 = st.columns(5)
     
@@ -215,7 +215,7 @@ if all(df is not None for df in [playlists_df, demographics_df, market_df]):
     st.markdown("---")
     
     if analysis_type == "Market Overview":
-        st.markdown("### 🎯 Market Intelligence Overview")
+        st.markdown("###  Market Intelligence Overview")
         
         col1, col2 = st.columns(2)
         
@@ -262,7 +262,7 @@ if all(df is not None for df in [playlists_df, demographics_df, market_df]):
             st.plotly_chart(fig_revenue, use_container_width=True)
     
     elif analysis_type == "Geographic Intelligence":
-        st.markdown("### 🗺️ Geographic Music Preference Intelligence")
+        st.markdown("###  Geographic Music Preference Intelligence")
         
         col1, col2 = st.columns([2, 1])
         
@@ -349,7 +349,7 @@ if all(df is not None for df in [playlists_df, demographics_df, market_df]):
                 st.plotly_chart(fig_cluster, use_container_width=True)
     
     elif analysis_type == "Cultural Patterns":
-        st.markdown("### 🎭 Cultural Migration & Generational Analysis")
+        st.markdown("###  Cultural Migration & Generational Analysis")
         
         col1, col2 = st.columns(2)
         
@@ -409,7 +409,7 @@ if all(df is not None for df in [playlists_df, demographics_df, market_df]):
             st.plotly_chart(fig_gen, use_container_width=True)
     
     else:  # Business Opportunities
-        st.markdown("### 💡 Strategic Business Opportunities")
+        st.markdown("###  Strategic Business Opportunities")
         
         # Market Gap Analysis
         col1, col2 = st.columns(2)
@@ -468,7 +468,7 @@ if all(df is not None for df in [playlists_df, demographics_df, market_df]):
             st.plotly_chart(fig_priority, use_container_width=True)
         
         # Strategic Recommendations
-        st.markdown("### 📋 Strategic Recommendations")
+        st.markdown("###  Strategic Recommendations")
         
         # Generate dynamic recommendations
         top_opportunity = opportunity_data.loc[opportunity_data['content_gap'].idxmin()]
@@ -487,7 +487,7 @@ if all(df is not None for df in [playlists_df, demographics_df, market_df]):
     
     # Footer with enhanced project info
     st.markdown("---")
-    st.markdown("### 📈 Advanced Analytics Capabilities")
+    st.markdown("###  Advanced Analytics Capabilities")
     
     col1, col2, col3 = st.columns(3)
     
