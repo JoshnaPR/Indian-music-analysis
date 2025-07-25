@@ -1,12 +1,12 @@
-\#  Indian Music Listeners in the US - Data Analytics Project
+s\#  Indian Music Listeners in the US - Data Analytics Project
 
 ## Project Overview
 
 This project analyzes Indian music listening patterns among different demographic groups across the United States, combining Spotify music data with US Census demographics to uncover regional preferences and market opportunities.
 
-**Live Demo**: \[Coming Soon - Streamlit Dashboard]  
+**Live Demo**: [\[Streamlit Dashboard]  ](https://indian-music-analysis-joshnapr.streamlit.app/)
 **Portfolio Piece**: Data Analytics \& Geographic Analysis  
-**Timeline**: 3 weeks development
+**Timeline**: 2 weeks development
 
 ------------------------------
 
